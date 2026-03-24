@@ -1,15 +1,14 @@
-# Clean Screenshot Enforcer
-Automatically targets and declines submitted images that are poor-quality photographs of physical computer screens.
+# Terminal Text Extractor
+Automatically extracts and transcribes text from screenshots of terminals, command lines, and boot logs.
 
 ## Overview
-Clean Screenshot Enforcer is a moderation tool designed to automatically maintain the visual quality of your community's submissions. It specifically targets and declines images that are poor-quality photographs of physical computer screens rather than proper digital screenshots.
+Terminal Text Extractor is an accessibility and utility tool designed to make technical support subreddits easier to navigate. Instead of forcing users to manually type out error messages from screenshots, the bot automatically reads the image and posts a perfectly formatted text block of the terminal output. 
 
 ## How It Works
-The application scans incoming image submissions and analyzes them for on-screen UI elements, camera artifacts, and physical screen bezels. If the image is determined to be a photograph of a screen instead of a direct digital screenshot, the post is automatically taken down.
+The application scans incoming image submissions and analyzes them for command-line interfaces or terminal windows using Gemini Vision AI. If terminal text is detected, the bot automatically extracts the text verbatim and pins a formatted comment to the top of the post containing the transcribed code.
 
 ## Features
-- **Automated Quality Control:** Instantly removes low-effort photographs of screens, drastically reducing the manual review burden on your moderation team.
-- **Targeted Analysis:** Focuses exclusively on identifying physical monitor and computer UI patterns, ensuring genuine screenshots and creative content are left unaffected.
-- **Hands-Off Moderation:** Integrates directly with the mod queue systems to work silently in the background while enforcing community screenshot rules.
- 
- 
+- **Automated Transcription:** Instantly pulls text from terminal screenshots, saving time for both posters and helpers who need to copy/paste log snippets.
+- **Improved Code Searchability:** By converting screenshots of code into text, errors and logs become fully searchable within your subreddit. 
+- **Manual Extraction Tool:** Includes a handy post action menu button so moderators can manually trigger text extraction on older posts or missed images.
+- **Smart Filtering:** The bot intelligently avoids trying to extract text from generic desktop showcases, gaming screenshots, or web browsers, focusing strictly on terminal content.
