@@ -1,6 +1,6 @@
 # Privacy Policy for playscraper-bot
 
-Last updated: March 12, 2026
+Last updated: April 13, 2026
 
 ## 1. Information Collection
 The `playscraper-bot` Devvit application is designed to enhance subreddit posts by automatically fetching information about Google Play Store applications linked in the community. 

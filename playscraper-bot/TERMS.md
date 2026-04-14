@@ -1,6 +1,6 @@
 # Terms of Service for playscraper-bot
 
-Last updated: March 12, 2026
+Last updated: April 13, 2026
 
 ## 1. Acceptance of Terms
 By installing or using the `playscraper-bot` Devvit application on Reddit, you agree to be bound by these Terms of Service. If you do not agree, please uninstall the application from your subreddit.
