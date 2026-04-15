@@ -1,4 +1,6 @@
-# Privacy Policy
+# Privacy Policy for suspended-remover
+
+Last updated: April 13, 2026
 
 This Privacy Policy describes how this Devvit application collects, uses, and shares information.
 

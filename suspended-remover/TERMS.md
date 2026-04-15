@@ -1,4 +1,6 @@
-# Terms of Service
+# Terms of Service for suspended-remover
+
+Last updated: April 13, 2026
 
 ## Acceptance of Terms
 By installing and using this Devvit application, you agree to these Terms of Service.
