@@ -1,21 +1,22 @@
 # Playscraper Bot
-PlayScraper Bot automatically detects, extracts, and summarizes application data linked in your community.
 
-> [!IMPORTANT]
-> **Requirement:** A **Google Gemini API Key** is required for this bot to function. You can get a free key from [Google AI Studio](https://aistudio.google.com/).
-
-## Overview
-The Playscraper Bot automatically detects, extracts, and summarizes application data linked in your community. Whether users share a Google Play Store app or an open-source GitHub repository, this bot instantly provides the community with a clean, standardized metadata summary.
-
-## Setup Instructions
-1. Install the bot to your subreddit.
-2. Go to your **Subreddit Settings** -> **Apps** -> **PlayScraper**.
-3. Locate the **"Google Gemini API Key"** setting.
-4. Paste your API key from Google AI Studio and save.
+Playscraper Bot automatically identifies, extracts, and summarizes application data linked within your community. Whether users share a mobile application or an open-source project, the bot provides a standardized, informative summary header to help the community evaluate the content at a glance.
 
 ## Features
-- **Multi-Platform Support:** Seamlessly detects and processes both Google Play Store links and GitHub repository URLs.
-- **Clean Formatting:** Standardizes application details into a consistent layout.
-- **Automated Summaries:** Powered by Google Gemini to provide descriptions, download counts, and ratings.
- 
- 
+
+- **Multi-Platform Detection**: Automatically recognizes links from the Google Play Store and GitHub repositories.
+- **AI-Powered Summaries**: Utilizes Google Gemini to generate clear, concise descriptions of the linked software.
+- **Metadata Extraction**: Displays essential metrics such as ratings, download counts, and key repository details.
+- **Professional Formatting**: Consolidates varied data sources into a single, clean community comment.
+
+## Configuration Requirements
+
+To enable the AI summary features, the bot requires a valid API key:
+
+| Setting | Requirement |
+|---------|-------------|
+| **Gemini API Key** | A standard API key from Google AI Studio. |
+| **Trigger Logic** | Automatically monitors new submissions for supported URLs. |
+
+---
+*Built for the Reddit community.*
