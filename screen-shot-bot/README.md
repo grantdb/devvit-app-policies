@@ -1,6 +1,6 @@
-# Terminal Text Extractor
+# screen-shot-bot
 
-Terminal Text Extractor is an accessibility and utility tool designed to bridge the gap between technical screenshots and searchable data. It automatically transcribes text from terminal windows, command lines, and boot logs, making troubleshooting discussions significantly easier for the community.
+screen-shot-bot is an accessibility and utility tool designed to bridge the gap between technical screenshots and searchable data. It automatically transcribes text from terminal windows, command lines, and boot logs, making troubleshooting discussions significantly easier for the community.
 
 ## Features
 
