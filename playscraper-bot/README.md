@@ -18,5 +18,11 @@ To enable the AI summary features, the bot requires a valid API key:
 | **Gemini API Key** | A standard API key from Google AI Studio. |
 | **Trigger Logic** | Automatically monitors new submissions for supported URLs. |
 
+## Legal
+
+This application is subject to the following legal agreements:
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/PRIVACY.md)
+
 ---
 *Built for the Reddit community.*
