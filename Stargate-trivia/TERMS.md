@@ -1,6 +1,6 @@
-# Terms of Service
+# Terms of Service for Stargate Trivia
 
-**Effective Date:** March 21, 2026
+Effective Date: March 21, 2026
 
 By installing or interacting with the Stargate Trivia Game ("the App") on Reddit, you agree to comply with and be bound by the following Terms of Service.
 

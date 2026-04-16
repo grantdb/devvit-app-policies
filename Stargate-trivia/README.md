@@ -15,5 +15,11 @@ Stargate Trivia is an interactive community engagement app that brings a profess
 - **Persistence**: High-score tracking powered by Reddit's secure Redis integration.
 - **Deployment**: Launchable via the Subreddit Moderator Menu for event-based gameplay.
 
+## Legal
+
+This application is subject to the following legal agreements:
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/PRIVACY.md)
+
 ---
 *Built for the Reddit community.*

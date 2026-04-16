@@ -1,6 +1,6 @@
-# Privacy Policy 
+# Privacy Policy for Stargate Trivia
 
-**Effective Date:** March 21, 2026
+Effective Date: March 21, 2026
 
 ## Information We Collect
 The Stargate Trivia Game ("the App") is a Devvit application built for Reddit. By interacting with the App, we collect the following information provided by the Reddit API:
