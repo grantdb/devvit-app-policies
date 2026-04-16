@@ -18,5 +18,11 @@ The bot leverages vision-based AI to ensure accuracy and requires the following 
 | **Gemini API Key** | A standard API key from Google AI Studio. |
 | **Logic Filter** | Intelligent filtering focused strictly on terminal-style content. |
 
+## Legal
+
+This application is subject to the following legal agreements:
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/PRIVACY.md)
+
 ---
 *Built for the Reddit community.*
