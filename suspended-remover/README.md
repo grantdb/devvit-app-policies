@@ -20,5 +20,11 @@ The application operates as a background task with no configuration required:
 | **User Verification** | Real-time status checks for account validity. |
 | **Audit Integration** | Seamless integration with Reddit's Mod Note system. |
 
+## Legal
+
+This application is subject to the following legal agreements:
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remover/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remover/PRIVACY.md)
+
 ---
 *Built for the Reddit community.*
