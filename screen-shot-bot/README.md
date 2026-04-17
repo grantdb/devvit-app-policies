@@ -1,22 +1,27 @@
-# screen-shot-bot
+# Screen Shot Bot
 
-screen-shot-bot is an accessibility and utility tool designed to bridge the gap between technical screenshots and searchable data. It automatically transcribes text from terminal windows, command lines, and boot logs, making troubleshooting discussions significantly easier for the community.
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![Vision](https://img.shields.io/badge/Vision_AI-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)
+![OCR](https://img.shields.io/badge/Transcription-OCR-blueviolet?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Context-Linux_Terminal-E33332?style=for-the-badge&logo=linux&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+
+Screen Shot Bot is a specialized accessibility and utility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows, command lines, and boot logs via Gemini Vision AI, it ensures error messages and logs are fully indexable and accessible within your subreddit.
 
 ## Features
 
-- **Automated Transcription**: Instantly identifies and extracts text from technical images using Gemini Vision AI.
-- **Searchable Archives**: By converting images to text comments, error messages and logs become fully indexable within Reddit's search.
-- **Contextual Formatting**: Transcribed content is posted in a clean, code-blocked format for maximum readability.
-- **Manual Intervention**: Moderators can manually trigger extraction via a dedicated Menu action for any missed or older submissions.
+- **Automated AI Transcription**: Instantly extracts precise text from complex technical images using advanced Vision models.
+- **Searchable Indexing**: Converts static images into text-based comments, making error reports searchable for future users.
+- **Syntactic Code Formatting**: Automatically wraps transcribed content in standard code blocks for maximum readability.
+- **Moderator Menu Actions**: Allows for manual on-demand transcription of older posts or failed automated captures.
 
-## Configuration Requirements
-
-The bot leverages vision-based AI to ensure accuracy and requires the following setup:
+## Configuration
 
 | Setting | Requirement |
 |---------|-------------|
-| **Gemini API Key** | A standard API key from Google AI Studio. |
-| **Logic Filter** | Intelligent filtering focused strictly on terminal-style content. |
+| **Gemini API Key** | A standard API key from Google AI Studio is required for the Vision engine. |
+| **Logic Filtering** | Intelligent heuristics focused strictly on terminal-style and technical content. |
 
 ## Legal
 
