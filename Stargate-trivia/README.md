@@ -1,19 +1,27 @@
 # Stargate Trivia
 
-Stargate Trivia is an interactive community engagement app that brings a professional gaming experience directly to your subreddit. Challenge your members with a deep pool of curated questions related to the Stargate SG-1 universe, complete with leaderboards and real-time state tracking.
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![Gaming](https://img.shields.io/badge/Category-Community_Gaming-blueviolet?style=for-the-badge)
+![Interactive](https://img.shields.io/badge/UX-Interactive_UI-brightgreen?style=for-the-badge)
+![Mobile](https://img.shields.io/badge/Support-Mobile_Optimized-blue?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+
+Stargate Trivia is a high-fidelity interactive engagement app that brings a professional gaming experience directly to your community. By leveraging a deep library of curated questions from the Stargate SG-1 universe, it fosters community competition through real-time leaderboards and sophisticated state tracking.
 
 ## Features
 
-- **Curated Question Pool**: A extensive library of unique, canonical Stargate SG-1 trivia questions.
-- **Dynamic Leaderboards**: Track top performers and foster community competition.
-- **Responsive UI Architecture**: A custom-built interface that adapts seamlessly to both mobile and desktop views.
-- **Automated Management**: Evaluates answers and maintains game state without requiring moderator oversight.
+- **Expertly Curated Content**: Features a proprietary library of unique, canonical trivia questions tailored for fans.
+- **Persistent Global Leaderboards**: Encourages long-term community engagement by tracking high scores and user milestones.
+- **Adaptive UI Architecture**: A custom-designed, low-latency interface that ensures a seamless experience on both mobile and desktop clients.
+- **Autonomous Game Logic**: Automatically handles answer validation and session management without moderator oversight.
 
-## Technical Details
+## Configuration
 
-- **Technology**: Interactive Devvit UI for high-performance state changes.
-- **Persistence**: High-score tracking powered by Reddit's secure Redis integration.
-- **Deployment**: Launchable via the Subreddit Moderator Menu for event-based gameplay.
+| Setting | Functionality |
+|---------|-------------|
+| **Deployment** | Launchable on-demand via the Subreddit Moderator Menu for community events. |
+| **Data Persistence** | Secure high-score tracking powered by integrated Reddit persistent storage. |
 
 ## Legal
 
