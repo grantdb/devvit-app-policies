@@ -1,22 +1,26 @@
 # Playscraper Bot
 
-Playscraper Bot automatically identifies, extracts, and summarizes application data linked within your community. Whether users share a mobile application or an open-source project, the bot provides a standardized, informative summary header to help the community evaluate the content at a glance.
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)
+![Automated](https://img.shields.io/badge/Status-Automated-brightgreen?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+
+Playscraper Bot is an AI-powered intelligence tool that automatically identifies, extracts, and summarizes application data linked within your community. By generating standardized, informative summary headers for mobile applications and open-source projects, it allows community members to evaluate shared content at a glance.
 
 ## Features
 
-- **Multi-Platform Detection**: Automatically recognizes links from the Google Play Store and GitHub repositories.
-- **AI-Powered Summaries**: Utilizes Google Gemini to generate clear, concise descriptions of the linked software.
-- **Metadata Extraction**: Displays essential metrics such as ratings, download counts, and key repository details.
-- **Professional Formatting**: Consolidates varied data sources into a single, clean community comment.
+- **Multi-Platform Intelligence**: Expertly recognizes and processes links from the Google Play Store and GitHub repositories.
+- **Generative AI Summaries**: Leverages Google Gemini to provide clear, concise descriptions of shared software.
+- **Automated Metadata Extraction**: Instantly surfaced essential metrics like ratings, download counts, and key repository stats.
+- **Cohesive Community Presence**: Consolidates varied external data sources into a single, professional community comment.
 
-## Configuration Requirements
-
-To enable the AI summary features, the bot requires a valid API key:
+## Configuration
 
 | Setting | Requirement |
 |---------|-------------|
-| **Gemini API Key** | A standard API key from Google AI Studio. |
-| **Trigger Logic** | Automatically monitors new submissions for supported URLs. |
+| **Gemini API Key** | A standard API key from Google AI Studio is required for the summarization engine. |
+| **Trigger Logic** | Operates automatically on all new submissions containing supported URLs. |
 
 ## Legal
 
