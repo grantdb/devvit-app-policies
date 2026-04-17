@@ -1,24 +1,26 @@
 # Suspended Account Remover
 
-Suspended Account Remover is a professional-grade moderation tool designed to keep community queues clean and focused. It automatically identifies and manages content from suspended or shadowbanned users, significantly reducing the manual workload for moderation teams.
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![Automation](https://img.shields.io/badge/Workflow-Automated_Queue-brightgreen?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-Optimized-blue?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Shadowban_Check-success?style=for-the-badge)
+
+Suspended Account Remover is a professional-grade security utility designed to maintain community integrity by automating the management of content from suspended or shadowbanned users. By silently removing low-quality or invalid content and maintaining a clear audit trail, it significantly reduces the manual workload for moderation teams in high-traffic subreddits.
 
 ## Features
 
-- **Automated Queue Maintenance**: Constantly monitors standard and spam queues for content from invalid accounts.
-- **Silent Actioning**: Automatically removes flagged content without requiring manual intervention from moderators.
-- **Detailed Auditing**: Appends private removal notes and internal moderator notes to ensure a clear audit trail.
-- **Performance Optimized**: Features intelligent caching to instantly skip already-processed items and verified users.
-- **Platform Resilience**: Architected to handle high-traffic subreddits without encountering platform timeouts or rate limits.
+- **Automated Perimeter Defense**: Constantly monitors community queues for contributions from invalid or restricted accounts.
+- **Silent Conflict Resolution**: Instantly removes flagged content without requiring manual moderator clicks or causing community disruption.
+- **Advanced Audit Integration**: Automatically appends internal notes to removed content, ensuring transparent records for the mod team.
+- **High-Velocity Architecture**: Optimized for performance with intelligent caching to handle thousands of users without platform timeouts.
 
-## Technical Summary
+## Configuration
 
-The application operates as a background task with no configuration required:
-
-| Component | Functionality |
+| Setting | Functionality |
 |---------|-------------|
-| **Background Scanning** | 5-minute interval monitoring of all active queues. |
-| **User Verification** | Real-time status checks for account validity. |
-| **Audit Integration** | Seamless integration with Reddit's Mod Note system. |
+| **Scan Interval** | Automated background monitoring operating on a persistent 5-minute cycle. |
+| **Status Verification** | Real-time platform checks to confirm account validity before taking action. |
 
 ## Legal
 
