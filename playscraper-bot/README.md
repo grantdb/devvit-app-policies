@@ -22,8 +22,10 @@ The bot operates autonomously and requires minimal community oversight once conf
 
 | Feature | Functionality |
 |---------|-------------|
-| **Gemini Integration** | Uses a standard AI engine to provide clear, human-readable software summaries. |
-| **Trigger Logic** | Operates automatically on all new submissions containing supported URLs. |
+| **Gemini Integration** | Uses Google Gemini 1.5 Flash to provide clear, human-readable software summaries. |
+| **Automation Modes** | Choose between **Automatic** (scans all new posts) or **Manual Only** (requires moderator trigger). |
+| **Showcase Support** | Automatic post-flairing and specialized "Verdict" headers for **r/droidappshowcase**. |
+| **Manual Trigger** | Use the "Trigger App Scraper" menu item on any post to run an on-demand scan. |
 
 ## Legal
 
