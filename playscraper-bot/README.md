@@ -8,18 +8,21 @@
 
 Playscraper Bot is an AI-powered intelligence tool that automatically identifies, extracts, and summarizes application data linked within your community. By generating standardized, informative summary headers for mobile applications and open-source projects, it allows community members to evaluate shared content at a glance.
 
-## Features
+## Core Features
 
 - **Multi-Platform Intelligence**: Expertly recognizes and processes links from the Google Play Store and GitHub repositories.
 - **Generative AI Summaries**: Leverages Google Gemini to provide clear, concise descriptions of shared software.
 - **Automated Metadata Extraction**: Instantly surfaced essential metrics like ratings, download counts, and key repository stats.
 - **Cohesive Community Presence**: Consolidates varied external data sources into a single, professional community comment.
+- **Showcase Specialized Support**: Deeply integrated for communities like **r/droidappshowcase**, featuring AI-generated verdicts and automatic post flairing based on app categories.
 
-## Configuration
+## Usage & Configuration
 
-| Setting | Requirement |
+The bot operates autonomously and requires minimal community oversight once configured with a summarization engine.
+
+| Feature | Functionality |
 |---------|-------------|
-| **Gemini API Key** | A standard API key from Google AI Studio is required for the summarization engine. |
+| **Gemini Integration** | Uses a standard AI engine to provide clear, human-readable software summaries. |
 | **Trigger Logic** | Operates automatically on all new submissions containing supported URLs. |
 
 ## Legal
@@ -30,3 +33,4 @@ This application is subject to the following legal agreements:
 
 ---
 *Built for the Reddit community.*
+
