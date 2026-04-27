@@ -11,10 +11,10 @@ Playscraper Bot is an AI-powered intelligence tool that automatically identifies
 ## Core Features
 
 - **Multi-Platform Intelligence**: Expertly recognizes and processes links from the Google Play Store and GitHub repositories.
-- **Generative AI Summaries**: Leverages Google Gemini to provide clear, concise descriptions of shared software.
+- **Generative AI Summaries**: Leverages **Google Gemini 3 Flash** to provide clear, concise descriptions of shared software.
 - **Automated Metadata Extraction**: Instantly surfaced essential metrics like ratings, download counts, and key repository stats.
 - **Cohesive Community Presence**: Consolidates varied external data sources into a single, professional community comment.
-- **Showcase Specialized Support**: Deeply integrated for communities like **r/droidappshowcase**, featuring AI-generated verdicts and automatic post flairing based on app categories.
+- **Modqueue & Approval Awareness**: Intelligently handles moderated communities by waiting for post approval before generating summaries, ensuring no lost or rejected comments.
 
 ## Usage & Configuration
 
@@ -22,9 +22,9 @@ The bot operates autonomously and requires minimal community oversight once conf
 
 | Feature | Functionality |
 |---------|-------------|
-| **Gemini Integration** | Uses Google Gemini 1.5 Flash to provide clear, human-readable software summaries. |
+| **Gemini Integration** | Powered by **Google Gemini 3 Flash** for superior speed and extraction intelligence. |
 | **Automation Modes** | Choose between **Automatic** (scans all new posts) or **Manual Only** (requires moderator trigger). |
-| **Showcase Support** | Automatic post-flairing and specialized "Verdict" headers for **r/droidappshowcase**. |
+| **Smart Retries** | Robust handling of Reddit rate limits and transient API issues. |
 | **Manual Trigger** | Use the "Trigger App Scraper" menu item on any post to run an on-demand scan. |
 
 ## Legal
