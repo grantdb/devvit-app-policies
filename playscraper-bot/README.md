@@ -11,8 +11,8 @@ Playscraper Bot is an AI-powered intelligence tool that automatically identifies
 ## Core Features
 
 - **Multi-Platform Intelligence**: Expertly recognizes and processes links from the Google Play Store and GitHub repositories.
-- **Generative AI Summaries**: Leverages **Google Gemini 3 Flash** to provide clear, concise descriptions of shared software.
-- **Automated Metadata Extraction**: Instantly surfaced essential metrics like ratings, download counts, and key repository stats.
+- **Generative AI Summaries**: Leverages **Google Gemini 2.5 Flash** to provide clear, concise descriptions of shared software.
+- **Automated Metadata Extraction**: Instantly surfaces essential metrics like ratings, category, and key repository stats.
 - **Cohesive Community Presence**: Consolidates varied external data sources into a single, professional community comment.
 - **Modqueue & Approval Awareness**: Intelligently handles moderated communities by waiting for post approval before generating summaries, ensuring no lost or rejected comments.
 
@@ -22,7 +22,7 @@ The bot operates autonomously and requires minimal community oversight once conf
 
 | Feature | Functionality |
 |---------|-------------|
-| **Gemini Integration** | Powered by **Google Gemini 3 Flash** for superior speed and extraction intelligence. |
+| **Gemini Integration** | Powered by **Google Gemini 2.5 Flash** for superior speed and extraction intelligence. |
 | **Automation Modes** | Choose between **Automatic** (scans all new posts) or **Manual Only** (requires moderator trigger). |
 | **Smart Retries** | Robust handling of Reddit rate limits and transient API issues. |
 | **Manual Trigger** | Use the "Trigger App Scraper" menu item on any post to run an on-demand scan. |
