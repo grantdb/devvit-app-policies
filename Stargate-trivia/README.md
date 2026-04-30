@@ -9,16 +9,18 @@
 
 Stargate Trivia is a high-fidelity interactive engagement app that brings a professional gaming experience directly to your community. By leveraging a deep library of curated questions from the Stargate SG-1 universe, it fosters community competition through real-time leaderboards and sophisticated state tracking.
 
-## Features
+## Core Features
 
 - **Expertly Curated Content**: Features a proprietary library of unique, canonical trivia questions tailored for fans.
 - **Persistent Global Leaderboards**: Encourages long-term community engagement by tracking high scores and user milestones.
 - **Adaptive UI Architecture**: A custom-designed, low-latency interface that ensures a seamless experience on both mobile and desktop clients.
 - **Autonomous Game Logic**: Automatically handles answer validation and session management without moderator oversight.
 
-## Configuration
+## Usage & Configuration
 
-| Setting | Functionality |
+Stargate Trivia is designed for on-demand community engagement.
+
+| Feature | Functionality |
 |---------|-------------|
 | **Deployment** | Launchable on-demand via the Subreddit Moderator Menu for community events. |
 | **Data Persistence** | Secure high-score tracking powered by integrated Reddit persistent storage. |
@@ -31,3 +33,4 @@ This application is subject to the following legal agreements:
 
 ---
 *Built for the Reddit community.*
+
