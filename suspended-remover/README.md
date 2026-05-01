@@ -8,16 +8,16 @@
 
 Suspended Account Remover is a professional-grade security utility designed to maintain community integrity by automating the management of content from suspended or shadowbanned users. By silently removing low-quality or invalid content and maintaining a clear audit trail, it significantly reduces the manual workload for moderation teams in high-traffic subreddits.
 
-## Features
+## Core Features
 
 - **Automated Perimeter Defense**: Constantly monitors community queues for contributions from invalid or restricted accounts.
 - **Silent Conflict Resolution**: Instantly removes flagged content without requiring manual moderator clicks or causing community disruption.
 - **Advanced Audit Integration**: Automatically appends internal notes to removed content, ensuring transparent records for the mod team.
 - **High-Velocity Architecture**: Optimized for performance with intelligent caching to handle thousands of users without platform timeouts.
 
-## Configuration
+## Usage & Configuration
 
-| Setting | Functionality |
+| Feature | Functionality |
 |---------|-------------|
 | **Scan Interval** | Automated background monitoring operating on a persistent 5-minute cycle. |
 | **Status Verification** | Real-time platform checks to confirm account validity before taking action. |
