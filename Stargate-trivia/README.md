@@ -18,8 +18,6 @@ Stargate Trivia is a high-fidelity interactive engagement app that brings a prof
 
 ## Usage & Configuration
 
-Stargate Trivia is designed for on-demand community engagement.
-
 | Feature | Functionality |
 |---------|-------------|
 | **Deployment** | Launchable on-demand via the Subreddit Moderator Menu for community events. |
@@ -33,4 +31,3 @@ This application is subject to the following legal agreements:
 
 ---
 *Built for the Reddit community.*
-
