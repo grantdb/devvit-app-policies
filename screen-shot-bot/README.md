@@ -9,19 +9,20 @@
 
 Screen Shot Bot is a specialized accessibility and utility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows, command lines, and boot logs via Gemini Vision AI, it ensures error messages and logs are fully indexable and accessible within your subreddit.
 
-## Features
+## Core Features
 
-- **Automated AI Transcription**: Instantly extracts precise text from complex technical images using advanced Vision models.
+- **Automated AI Transcription**: Instantly extracts precise text from complex technical images using advanced Vision models (Gemini 2.5 Flash).
 - **Searchable Indexing**: Converts static images into text-based comments, making error reports searchable for future users.
 - **Syntactic Code Formatting**: Automatically wraps transcribed content in standard code blocks for maximum readability.
 - **Moderator Menu Actions**: Allows for manual on-demand transcription of older posts or failed automated captures.
 
-## Configuration
+## Usage & Configuration
 
-| Setting | Requirement |
+| Feature | Functionality |
 |---------|-------------|
 | **Gemini API Key** | A standard API key from Google AI Studio is required for the Vision engine. |
 | **Logic Filtering** | Intelligent heuristics focused strictly on terminal-style and technical content. |
+| **Manual Trigger** | Use the "Trigger Transcription" menu item to run an on-demand scan. |
 
 ## Legal
 
