@@ -1,11 +1,19 @@
 # Stargate Trivia
 
-![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
-![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
 ![Gaming](https://img.shields.io/badge/Category-Community_Gaming-blueviolet?style=for-the-badge)
 ![Interactive](https://img.shields.io/badge/UX-Interactive_UI-brightgreen?style=for-the-badge)
 ![Mobile](https://img.shields.io/badge/Support-Mobile_Optimized-blue?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+
+
+
+
+
+
+
+
 
 Stargate Trivia is a high-fidelity interactive engagement app that brings a professional gaming experience directly to your community. By leveraging a deep library of curated questions from the Stargate SG-1 universe, it fosters community competition through real-time leaderboards and sophisticated state tracking.
 
