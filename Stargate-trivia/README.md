@@ -22,6 +22,7 @@ Stargate Trivia is a high-fidelity interactive engagement app that brings a prof
 - **Expertly Curated Content**: Features a proprietary library of unique, canonical trivia questions tailored for fans.
 - **Persistent Global Leaderboards**: Encourages long-term community engagement by tracking high scores and user milestones.
 - **Adaptive UI Architecture**: A custom-designed, low-latency interface that ensures a seamless experience on both mobile and desktop clients.
+- **Mobile Hardened**: Specifically engineered to resolve common mobile WebView bottlenecks, including asset optimization and stable layout transitions within the Reddit app.
 - **Autonomous Game Logic**: Automatically handles answer validation and session management without moderator oversight.
 
 ## Usage & Configuration
