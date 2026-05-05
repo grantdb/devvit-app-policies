@@ -1,12 +1,11 @@
 # Screen Shot Bot
 
-![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
-![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
-![Vision](https://img.shields.io/badge/Vision_AI-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
+![Vision](https://img.shields.io/badge/Vision_AI-4285F4?style=for-the-badge)
 ![OCR](https://img.shields.io/badge/Transcription-OCR-blueviolet?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Context-Linux_Terminal-E33332?style=for-the-badge&logo=linux&logoColor=white)
+![Linux](https://img.shields.io/badge/Context-Linux_Terminal-E33332?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
-
 Screen Shot Bot is a specialized accessibility and utility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows, command lines, and boot logs via Gemini Vision AI, it ensures error messages and logs are fully indexable and accessible within your subreddit.
 
 ## Core Features
