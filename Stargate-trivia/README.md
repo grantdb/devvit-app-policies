@@ -13,7 +13,7 @@ Stargate Trivia is a high-fidelity interactive engagement app that brings a prof
 - **Expertly Curated Content**: Features a proprietary library of unique, canonical trivia questions tailored for fans.
 - **Persistent Global Leaderboards**: Encourages long-term community engagement by tracking high scores and user milestones.
 - **Adaptive UI Architecture**: A custom-designed, low-latency interface that ensures a seamless experience on both mobile and desktop clients.
-- **Mobile Hardened (v0.0.88)**: Specifically engineered to resolve mobile WebView bottlenecks. Features **Immersive Expansion** where dialing the gate transitions the player into a full-screen, high-fidelity gaming environment.
+- **Dual-Entry Immersive Mode (v0.0.90)**: Specifically engineered to resolve mobile WebView bottlenecks. Features a **Dual-Entry Architecture** where the inline "Gate Room" (inline.html) and the expanded "Game Engine" (game.html) are separate bundles. This ensures a zero-latency transition and perfect mobile rendering.
 - **Autonomous Game Logic**: Automatically handles answer validation and session management without moderator oversight.
 
 ## Usage & Configuration
