@@ -6,15 +6,6 @@
 ![Interactive](https://img.shields.io/badge/UX-Interactive_UI-brightgreen?style=for-the-badge)
 ![Mobile](https://img.shields.io/badge/Support-Mobile_Optimized-blue?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
-
-
-
-
-
-
-
-
-
 Stargate Trivia is a high-fidelity interactive engagement app that brings a professional gaming experience directly to your community. By leveraging a deep library of curated questions from the Stargate SG-1 universe, it fosters community competition through real-time leaderboards and sophisticated state tracking.
 
 ## Core Features
