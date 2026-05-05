@@ -1,7 +1,7 @@
 # Suspended Account Remover
 
-![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
-![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge&logo=devvit&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
+![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
 ![Automation](https://img.shields.io/badge/Workflow-Automated_Queue-brightgreen?style=for-the-badge)
 ![Performance](https://img.shields.io/badge/Performance-Optimized-blue?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Shadowban_Check-success?style=for-the-badge)
