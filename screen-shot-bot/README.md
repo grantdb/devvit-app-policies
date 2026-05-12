@@ -14,6 +14,8 @@ Screen Shot Bot is a specialized accessibility and utility tool designed to brid
 - **Searchable Indexing**: Converts static images into text-based comments, making error reports searchable for future users.
 - **Syntactic Code Formatting**: Automatically wraps transcribed content in standard code blocks for maximum readability.
 - **Moderator Menu Actions**: Allows for manual on-demand transcription of older posts or failed automated captures.
+- **Bulletproof Auto-Trigger**: Automatically processes new image posts via hardened dual-event registration (`PostSubmit` + `PostCreate`). Silent failures eliminated.
+- **Mod Approval Coverage**: Re-processes posts on moderator approval, ensuring no terminal screenshot is ever missed.
 
 ## Usage & Configuration
 
