@@ -10,14 +10,16 @@ Playscraper Bot is a professional moderator utility that leverages advanced AI t
 ## Core Features
 
 - **Metadata Extraction**: Identifies and processes links from the Google Play Store and GitHub repositories.
-- **Gemini Intelligence**: Powered by Google Gemini 2.5 Flash for high-speed software summarization.
-- **Moderator Controlled**: Functions primarily as a moderator-triggered tool for on-demand link verification.
-- **Status Integration**: Intelligently waits for post approvals before generating automated summaries.
+- **Gemini Intelligence**: Powered by Google Gemini 2.5 Flash for high-speed software summarization and analysis.
+- **Automated Processing**: Instantly detects links in new posts via an ultra-reliable background worker system.
+- **Moderator Controlled**: Supports manual overrides and "On-Demand" scans via the native Reddit Post Menu.
+- **Status Integration**: Intelligently waits for post approvals before generating automated summaries to keep subreddits clean.
 
 ## Usage & Configuration
 
 | Feature | Functionality |
 |---------|-------------|
+| **Auto-Post Scraper** | Instantly summarizes app links in new posts (PostSubmit/PostCreate). |
 | **Manual Trigger** | Moderators initiate scans via the native Reddit Post Menu. |
 | **Extraction Engine** | Utilizes Gemini AI for automated metadata and description parsing. |
 | **Queue Management** | Synchronizes with the Mod Queue to ensure only approved content is processed. |
