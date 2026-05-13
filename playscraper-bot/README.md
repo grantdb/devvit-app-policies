@@ -31,4 +31,4 @@ This application is subject to the following legal agreements:
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/PRIVACY.md)
 
 ---
-*Built for the Reddit community by the Antigravity Fleet.*
+*Built for Reddit's moderator community.*
