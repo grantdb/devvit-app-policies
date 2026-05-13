@@ -6,6 +6,7 @@
 ![OCR](https://img.shields.io/badge/Transcription-OCR-blueviolet?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/Context-Linux_Terminal-E33332?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+
 Screen Shot Bot is a specialized accessibility and utility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows, command lines, and boot logs via Gemini Vision AI, it ensures error messages and logs are fully indexable and accessible within your subreddit.
 
 ## Core Features
@@ -32,4 +33,4 @@ This application is subject to the following legal agreements:
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/PRIVACY.md)
 
 ---
-*Built for the Reddit community.*
+*Built for Reddit's moderator community.*
