@@ -30,4 +30,4 @@ This application is subject to the following legal agreements:
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/PRIVACY.md)
 
 ---
-*Built for the Reddit community.*
+*Built for fun on Reddit.*
