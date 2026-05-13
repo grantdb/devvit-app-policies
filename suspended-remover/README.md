@@ -1,4 +1,4 @@
-# Suspended Account Remover
+# Suspended Remove
 
 ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
 ![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
@@ -6,7 +6,7 @@
 ![Performance](https://img.shields.io/badge/Performance-Optimized-blue?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Shadowban_Check-success?style=for-the-badge)
 
-Suspended Account Remover is a professional-grade security utility designed to maintain community integrity by automating the management of content from suspended or shadowbanned users. By silently removing low-quality or invalid content and maintaining a clear audit trail, it significantly reduces the manual workload for moderation teams in high-traffic subreddits.
+Suspended Remove is a professional-grade security utility designed to maintain community integrity by automating the management of content from suspended or shadowbanned users. By silently removing low-quality or invalid content and maintaining a clear audit trail, it significantly reduces the manual workload for moderation teams in high-traffic subreddits.
 
 ## Core Features
 
@@ -25,8 +25,8 @@ Suspended Account Remover is a professional-grade security utility designed to m
 ## Legal
 
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remover/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remover/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/PRIVACY.md)
 
 ---
-*Built for the Reddit community.*
+*Built for Reddit's moderator community.*
