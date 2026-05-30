@@ -2,32 +2,23 @@
 
 ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
 ![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
-![Vision](https://img.shields.io/badge/Vision_AI-4285F4?style=for-the-badge)
-![OCR](https://img.shields.io/badge/Transcription-OCR-blueviolet?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Context-Linux_Terminal-E33332?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-Validated-success?style=for-the-badge)
+![Utility](https://img.shields.io/badge/Category-Utility-blue?style=for-the-badge)
 
-Screen Shot Bot is a specialized accessibility and utility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows, command lines, and boot logs via Gemini Vision AI, it ensures error messages and logs are fully indexable and accessible within your subreddit.
+Screen Shot Bot is a specialized accessibility tool designed to bridge the gap between technical screenshots and searchable community data. By automatically transcribing text from terminal windows and boot logs, it ensures error messages are fully indexable and accessible.
 
-## Core Features
-
-- **Automated AI Transcription**: Instantly extracts precise text from complex technical images using advanced Vision models (Gemini 2.5 Flash).
-- **Searchable Indexing**: Converts static images into text-based comments, making error reports searchable for future users.
+## Features
+- **Automated AI Transcription**: Instantly extracts precise text from complex technical images.
+- **Searchable Indexing**: Converts static images into text-based comments, making error reports searchable.
 - **Syntactic Code Formatting**: Automatically wraps transcribed content in standard code blocks for maximum readability.
-- **Moderator Menu Actions**: Allows for manual on-demand transcription of older posts or failed automated captures.
-- **Bulletproof Auto-Trigger**: Automatically processes new image posts via hardened dual-event registration (`PostSubmit` + `PostCreate`). Silent failures eliminated.
-- **Mod Approval Coverage**: Re-processes posts on moderator approval, ensuring no terminal screenshot is ever missed.
+- **Mod Approval Coverage**: Re-processes posts on moderator approval, ensuring no screenshot is missed.
+- **Manual Actions**: Allows for manual on-demand transcription of older posts.
 
-## Usage & Configuration
-
-| Feature | Functionality |
-|---------|-------------|
-| **Gemini API Key** | A standard API key from Google AI Studio is required for the Vision engine. |
-| **Logic Filtering** | Intelligent heuristics focused strictly on terminal-style and technical content. |
-| **Manual Trigger** | Use the "Trigger Transcription" menu item to run an on-demand scan. |
+## Install / Use
+1. Install **Screen Shot Bot** via the App Directory.
+2. Configure your AI provider credentials in the App Settings.
+3. Use the "Trigger Transcription" menu item to run an on-demand scan on any image post.
 
 ## Legal
-
 This application is subject to the following legal agreements:
 - [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/TERMS.md)
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/PRIVACY.md)
