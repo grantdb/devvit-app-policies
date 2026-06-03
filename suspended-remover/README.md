@@ -23,3 +23,7 @@ This application is subject to the following legal agreements:
 
 ---
 *Built for Reddit's moderator community.*
+
+
+---
+*Built for Reddit's moderator community. Part of the GuardHub family.*
