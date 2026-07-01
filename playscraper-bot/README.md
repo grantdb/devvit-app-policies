@@ -38,7 +38,6 @@ Playscraper Bot is a professional moderator utility that uses AI to extract and 
 | Skip if Spam | Abort if post is marked spam before check runs | Enabled |
 
 ## Legal
-
 This application is subject to the following legal agreements:
 - [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/TERMS.md)
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/PRIVACY.md)
