@@ -20,8 +20,8 @@ Screen Shot Bot is a specialized accessibility tool designed to bridge the gap b
 
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
 
 ---
 *Built for Reddit's moderator community.*
