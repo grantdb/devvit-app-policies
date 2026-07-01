@@ -16,10 +16,13 @@ Stargate Trivia is a high-fidelity interactive engagement app that brings a prof
 1. Install **Stargate Trivia** via the App Directory.
 2. Launch a trivia event on-demand via the Subreddit Moderator Menu.
 
+## Settings
+This app uses an interactive Custom Post Dashboard for its configuration. Look for the configuration post in your subreddit to manage settings.
+
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/PRIVACY.md)
 
 ---
-*Built for fun on Reddit.*
+*Built for fun on Reddit*
