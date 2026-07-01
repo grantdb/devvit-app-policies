@@ -40,8 +40,8 @@ Playscraper Bot is a professional moderator utility that uses AI to extract and 
 ## Legal
 
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/PRIVACY.md)
 
 ---
 *Built for Reddit's moderator community.*
