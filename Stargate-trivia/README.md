@@ -18,8 +18,8 @@ Stargate Trivia is a high-fidelity interactive engagement app that brings a prof
 
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/stargate-trivia/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
 
 ---
 *Built for fun on Reddit.*
