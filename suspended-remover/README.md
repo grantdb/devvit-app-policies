@@ -16,10 +16,13 @@ Suspended Remove is a professional-grade security utility designed to maintain c
 1. Install **Suspended Remove** via the App Directory.
 2. The application will immediately begin scanning queues in the background for suspended content.
 
+## Settings
+This app can be configured directly from the subreddit's App Settings menu.
+
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/PRIVACY.md)
 
 ---
 *Built for Reddit's moderator community.*
