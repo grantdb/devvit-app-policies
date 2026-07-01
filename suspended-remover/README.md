@@ -18,12 +18,8 @@ Suspended Remove is a professional-grade security utility designed to maintain c
 
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/suspended-remove/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
 
 ---
 *Built for Reddit's moderator community.*
-
-
----
-*Built for Reddit's moderator community. Part of the GuardHub family.*
