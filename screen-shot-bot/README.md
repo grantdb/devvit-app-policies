@@ -18,10 +18,13 @@ Screen Shot Bot is a specialized accessibility tool designed to bridge the gap b
 2. Configure your AI provider credentials and Extraction Target in the App Settings.
 3. Use the "Extract text from image (Gemini)" menu item to run an on-demand scan on any post.
 
+## Settings
+This app can be configured directly from the subreddit's App Settings menu. This app uses an interactive Custom Post Dashboard for its configuration. Look for the configuration post in your subreddit to manage settings. It is also triggered via Mod Menu Actions on posts or comments.
+
 ## Legal
 This application is subject to the following legal agreements:
-- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/TERMS.md)
-- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/PRIVACY.md)
+- [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/TERMS.md)
+- [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/screen-shot-bot/PRIVACY.md)
 
 ---
 *Built for Reddit's moderator community.*
