@@ -16,16 +16,7 @@
 
 ## How It Works
 
-```mermaid
-flowchart LR
-    A[Mod Launches Event] --> B(Interactive Trivia Post)
-    B -->|User Joins| C{Question Engine}
-    C -->|Presents Question| D[User Answers]
-    D -->|Correct| E[Score Increases]
-    D -->|Incorrect| F[Game Over]
-    E --> C
-    F -->|Record Score| G[Global Leaderboard]
-```
+![Logic Flowchart](https://raw.githubusercontent.com/grantdb/reddit-app-legal/main/assets/flowcharts/stargate-trivia-flowchart.png)
 
 1. A moderator launches a new Stargate Trivia event directly from their Mod Menu.
 2. A customized interactive post is generated in the subreddit.
