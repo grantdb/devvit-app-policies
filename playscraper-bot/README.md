@@ -1,43 +1,50 @@
 # Playscraper Bot
 
-![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
 ![Devvit](https://img.shields.io/badge/Devvit-FF4500?style=for-the-badge)
 ![Category](https://img.shields.io/badge/Category-Moderation-blue?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-AI_Analyzer-8A2BE2?style=for-the-badge)
 
-Playscraper Bot is a professional moderator utility that uses AI to extract and summarize metadata from app and repository links. It automatically posts standardized, informative comment headers for mobile apps and open-source projects — helping moderators verify shared content at a glance.
+**Playscraper Bot** is a professional moderator utility that leverages AI to extract and summarize metadata from app stores and open-source repositories. By automatically posting standardized, highly informative comment headers on submissions containing links to these platforms, it helps moderators and users verify shared software content at a glance without having to click away from Reddit.
 
-## Features
+## Key Features
 
-- **Multi-Source Detection**: Identifies links from Google Play Store, F-Droid, GitHub, GitLab, and Codeberg.
-- **AI-Powered Summaries**: Uses Gemini 2.5 Flash to extract developer, downloads, category, rating, content rating, and more.
-- **Delayed Eligibility-First Processing**: Waits a configurable delay before processing new posts, then confirms the post is still live (not removed, filtered, or spam) before making any external API calls. Prevents wasted quota on removed posts.
-- **Automated Processing**: Detects and summarizes links in new posts automatically, or waits for moderator approval first.
-- **Manual Trigger**: Supports on-demand scans via the native Reddit Post Menu (moderators only).
-- **Configurable Detail Levels**: Choose between Confirmed Only, General Details, or Full Details comment modes.
+- **Multi-Source Detection**: Seamlessly identifies links from the Google Play Store, F-Droid, GitHub, GitLab, and Codeberg.
+- **AI-Powered Summaries**: Integrates with Gemini 2.5 Flash to rapidly extract key metrics like developer name, download counts, categories, user ratings, and content ratings.
+- **Eligibility-First Processing**: Employs a sophisticated delayed-processing pattern. It waits a configurable amount of time to confirm a new post is still live (not caught by Reddit's spam filters or AutoModerator) before making any expensive external API calls, saving your quota.
+- **Automated or Manual Automation**: Can run automatically on all new posts, or be set to manual mode where it only scans when a moderator clicks "Trigger App Scraper" in the Mod menu.
+- **Configurable Detail Levels**: Tailor the output comment's length by choosing between "Confirmed Only", "General Details", or "Full Details".
 
-## Install / Use
+## How It Works
 
-1. Install **Playscraper Bot** via the Reddit App Directory.
-2. Configure your **Google Gemini API Key** in the app settings (required).
-3. Choose which sources to detect and your preferred comment detail level.
-4. The bot will automatically process new posts after a brief eligibility delay.
-5. Moderators can trigger manual scans on any post using the **Trigger App Scraper** option in the Mod actions menu.
+```mermaid
+flowchart LR
+    A[User Posts Link] -->|Link Detected| B(Playscraper Bot)
+    B -->|Wait Delay| C{Eligibility Check}
+    C -->|Spam/Removed| D[Abort Scan]
+    C -->|Post is Live| E{Fetch External Metadata}
+    E -->|Scrape Store| F[Gemini 2.5 Extraction]
+    F -->|Format Data| G[Sticky Comment Reply]
+```
 
-## Settings
+1. A user posts a link to a supported app store or repository.
+2. The bot schedules a short delay. Once the delay passes, it checks if the post was removed by Reddit's filters or AutoModerator.
+3. If the post is still valid, the bot scrapes the external URL.
+4. The raw HTML is fed to Gemini to extract structured metadata.
+5. A highly readable, stickied comment is posted summarizing the app for the community.
 
-| Setting | Description | Default |
-|---|---|---|
-| Gemini API Key | Required. Get one free from [Google AI Studio](https://aistudio.google.com). | — |
-| Automation Mode | Auto (new posts) or Manual Only | Auto |
-| Comment Detail Level | Confirmed Only / General / Full | General |
-| App Sources to Detect | Play Store, F-Droid, GitHub, GitLab, Codeberg | Play, GitHub, F-Droid |
-| Enable Delayed Processing | Wait before processing to confirm post is valid | Enabled |
-| Processing Delay | Seconds to wait before the eligibility check (5–100) | 20 |
-| Skip if Removed | Abort if post is removed before check runs | Enabled |
-| Skip if Filtered | Abort if post is in modqueue before check runs | Enabled |
-| Skip if Spam | Abort if post is marked spam before check runs | Enabled |
+## Setup & Configuration
+
+1. **Install**: Add **Playscraper Bot** via the App Directory.
+2. **API Key Requirement**: Obtain a free Google Gemini API Key from Google AI Studio.
+3. **App Settings**: 
+   - Input your Gemini API Key into the app settings.
+   - Choose which sources to detect (e.g., enable GitHub but disable Play Store).
+   - Set your preferred Comment Detail Level.
+4. **Monitoring**: The bot operates silently in the background unless configured for Manual mode.
 
 ## Legal
+
 This application is subject to the following legal agreements:
 - [Terms of Service](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/TERMS.md)
 - [Privacy Policy](https://github.com/grantdb/reddit-app-legal/blob/main/playscraper-bot/PRIVACY.md)
