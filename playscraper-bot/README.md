@@ -17,7 +17,7 @@
 
 ## How It Works
 
-![Logic Flowchart](https://raw.githubusercontent.com/grantdb/playscraper-bot/main/assets/flowchart.png)
+![Logic Flowchart](https://raw.githubusercontent.com/grantdb/reddit-app-legal/main/assets/flowcharts/playscraper-bot-flowchart.png)
 
 1. A user posts a link to a supported app store or repository.
 2. The bot schedules a short delay. Once the delay passes, it checks if the post was removed by Reddit's filters or AutoModerator.
