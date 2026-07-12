@@ -17,15 +17,7 @@
 
 ## How It Works
 
-```mermaid
-flowchart LR
-    A[User Posts Image] -->|Event Trigger| B(Screen Shot Bot)
-    B -->|Check Image| C{Send to AI}
-    C -->|Analyze Context| D{Matches Target?}
-    D -->|Yes| E[Extract Text]
-    D -->|No| F[Abort Processing]
-    E -->|Format Output| G[Post Stickied Comment]
-```
+![Logic Flowchart](https://raw.githubusercontent.com/grantdb/reddit-app-legal/main/assets/flowcharts/screen-shot-bot-flowchart.png)
 
 1. A user submits a post containing an image (e.g., a photo of a kernel panic).
 2. The bot intercepts the image and securely sends it to the AI engine for contextual analysis.
