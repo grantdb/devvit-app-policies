@@ -16,6 +16,8 @@
 
 ## How It Works
 
+![Logic Flowchart](https://raw.githubusercontent.com/grantdb/suspended-remover/main/assets/flowchart.png)
+
 1. The app runs a background scan of your subreddit's modqueue and spam queue.
 2. It attempts to load the author's profile via the API.
 3. If the profile is inaccessible (returns undefined/404), the user is flagged.
