@@ -18,11 +18,11 @@
 
 ![Logic Flowchart](https://raw.githubusercontent.com/grantdb/reddit-app-legal/main/assets/flowcharts/suspended-remove-flowchart.png)
 
-1. The app runs a background scan of your subreddit's modqueue and spam queue.
-2. It attempts to load the author's profile via the API.
-3. If the profile is inaccessible (returns undefined/404), the user is flagged.
-4. The app checks the user multiple times over several days (based on your settings) to ensure it's not a temporary glitch.
-5. If the account remains inaccessible, the app removes the content and logs the action via Mod Notes.
+1. The app runs a background scan of your subreddit's modqueue and spam queue — covering both **posts and comments**.
+2. It attempts to load the author's profile via the Reddit API.
+3. If the profile is inaccessible (suspended or shadowbanned), the item is flagged.
+4. The app re-checks the user multiple times over several days (based on your settings) to rule out temporary API glitches. Items are automatically expired from the queue after 14 days.
+5. If the account remains inaccessible after all checks, the app removes the content and logs the action via Mod Notes.
 
 ## Setup & Configuration
 
