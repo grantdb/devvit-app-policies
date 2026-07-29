@@ -35,6 +35,11 @@
    - Set your preferred Comment Detail Level.
 4. **Monitoring**: The bot operates silently in the background unless configured for Manual mode.
 
+## Support
+
+For help, bug reports, or feature requests, post in r/grantdb.
+Please include the app name, what you expected, what happened, and any error text or screenshots.
+
 ## Legal
 
 This application is subject to the following legal agreements:
