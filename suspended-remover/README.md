@@ -33,6 +33,11 @@
    - The specific text to use for the automated Mod Notes.
 3. **Usage**: The application immediately begins scanning queues in the background. No manual interaction is required.
 
+## Support
+
+For help, bug reports, or feature requests, post in r/grantdb.
+Please include the app name, what you expected, what happened, and any error text or screenshots.
+
 ## Legal
 
 This application is subject to the following legal agreements:
