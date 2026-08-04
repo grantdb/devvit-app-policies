@@ -29,9 +29,9 @@
 1. **Install**: Add **Suspended Remove** via the App Directory.
 2. **App Settings**: Navigate to your subreddit's App Settings to configure:
    - The number of checks required before removal (1-3).
-   - Whether to mark the items as spam.
+   - Whether to mark the items as spam (Default: OFF for quiet removal).
    - The specific text to use for the automated Mod Notes.
-3. **Usage**: The application immediately begins scanning queues in the background. No manual interaction is required.
+3. **Usage**: The application immediately begins scanning queues in the background. Moderators can also trigger an instant scan via the "GuardHub: Scan Modqueue for Suspended Users" menu item.
 
 ## Support
 
