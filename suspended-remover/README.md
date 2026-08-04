@@ -44,16 +44,25 @@
 
 ## What Changed
 
-**v1.0.72** adds clearer waiting-stage behavior options.
+> [!IMPORTANT]
+> **ATTENTION MODERATORS — MAJOR FEATURE UPDATE (v1.0.72)**
+> **PLEASE REVIEW YOUR APP SETTINGS AFTER UPGRADING!**
+> Suspended Remove now operates on a **Two-Stage Enforcement Model**. Items are held during a waiting/verification window before final removal.
 
-- **Two waiting-stage options** are now available:
-  - **Filter** *(default)* — keeps the item in the review queue with a `[WAITING]` marker in the mod note so moderators can see it during the checking period.
-  - **Temporary Remove** — moves the item to the removed queue while checks continue. If a later check shows the account is accessible again, the app can approve the item it removed.
-- **Legacy timing defaults are preserved** — `recheckDays = 0` and `confirmChecks = 1` are unchanged. Existing installed subreddits will not see a change in timing behavior after upgrading.
-- **Recovery approval** — when Temporary Remove is used and the account later becomes accessible, the app can approve the item it removed. This is on by default and can be turned off. Note: approving a removed item restores its visibility but may not cause AutoModerator or other moderation apps to re-run on it as though it were a brand-new submission.
-- **Deprecated spam setting retained** — the older "Mark as spam" setting is still shown for compatibility. If you had it configured, it continues to work. The new "Final action" setting takes priority if both are set.
-- **Separate note controls** — waiting-period notes and final-action notes can now be toggled independently. Both default to on. If you had notes turned off before, that preference is preserved through the upgrade.
-- **Settings help text** is rewritten in plain moderator language throughout.
+> [!WARNING]
+> **CRITICAL BEHAVIOR NOTICES**:
+> 1. **New Waiting-Stage Behavior Options**:
+>    - **Filter** *(Default)* — Keeps items in your review queue with a `[WAITING]` marker so your mod team sees active verification in progress.
+>    - **Temporary Remove** — Moves items out of the review queue to the removed queue while multi-day checks run.
+> 2. **Recovery & Approval Limits**: If an account becomes accessible again, the app can auto-approve items it temporarily removed. **Note**: Reddit may NOT re-trigger AutoModerator or third-party app checks on approved items like a brand-new submission.
+> 3. **Setting Precedence**: The legacy *Mark as spam* setting is now deprecated. Use the new **Final action after threshold** setting (`Remove` vs `Remove as spam`). If both are set, the new setting takes priority.
+
+### Key Changes Summary
+- **Two-Stage Enforcement**: Items pass through a waiting stage (`filter_waiting` or `temp_remove_waiting`) before final action (`remove` or `spam`).
+- **Independent Mod Notes**: Waiting-period notes (`[WAITING]`) and final removal notes can now be configured and toggled independently.
+- **Legacy Timing Preserved**: Defaults remain `recheckDays = 0` and `confirmChecks = 1` for zero rollout friction.
+- **Enhanced Settings Documentation**: All settings pages have been rewritten with plain-English moderator guidance.
+
 
 ## Support
 
