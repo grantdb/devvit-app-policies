@@ -33,6 +33,11 @@
    - Select your "Extraction Target" from the dropdown list.
 3. **Usage**: The bot runs automatically. To use it manually on an old post, use the "Extract text from image (Gemini)" menu item in the post's mod menu.
 
+## Support
+
+For help, bug reports, or feature requests, post in r/grantdb.
+Please include the app name, what you expected, what happened, and any error text or screenshots.
+
 ## Legal
 
 This application is subject to the following legal agreements:
